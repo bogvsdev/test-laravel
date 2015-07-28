@@ -2,6 +2,7 @@
 Simple web application on Laravel framework
 
 To start site you need:
+
 1. Change in file app/config/database.php database name, user and password
 
 2. Change in file app/config/mail.php smtp server or if you have  a google account just change username and password
