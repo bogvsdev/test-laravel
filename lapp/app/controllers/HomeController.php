@@ -36,9 +36,9 @@ class HomeController extends BaseController {
 			'body'=>$data['body'],
 		);
 		$email = $data['email'];
-		// Mail::send('emails.form', $emailcontent, function($message) use ($email){
-		// 	$message->to($email,'Best site ever')->subject('Best site ever sent a message to you!');
-		// });
+		Mail::send('emails.form', $emailcontent, function($message) use ($email){
+			$message->to($email,'Best site ever')->subject('Best site ever sent a message to you!');
+		});
 
 		return Redirect::to('thankyou');
 	}
