@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'lapp',
-			'username'  => 'root',
-			'password'  => 'bdevit',
+			'database'  => 'YOUR DB NAME',
+			'username'  => 'YOUR DB USERNAME',
+			'password'  => 'YOUR DB PASSWORD',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
